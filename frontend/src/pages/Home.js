@@ -9,6 +9,7 @@ import FirmVisit from '../components/FirmVisit';
 import Testimonial from '../components/Testimonial';
 import Blog from '../components/Blog';
 import Footer from '../components/Footer';
+import BacktoTop from '../components/BacktoTop';
 
 const Home = () => {
     useEffect(() => {
@@ -41,6 +42,7 @@ const Home = () => {
         <Testimonial />
         <Blog />
         <Footer />
+        <BacktoTop/>
         </>
     );
 };
