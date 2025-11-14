@@ -25,14 +25,22 @@ repositories {
 
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-data-mongodb")
-	implementation("org.springframework.boot:spring-boot-starter-oauth2-client")
-	implementation("org.springframework.boot:spring-boot-starter-security")
+
+	//소셜로그인, 시큘리티
+	// implementation("org.springframework.boot:spring-boot-starter-oauth2-client")
+	
+	//시큘리티 
+	// implementation("org.springframework.boot:spring-boot-starter-security")
+
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	compileOnly("org.projectlombok:lombok")
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
 	annotationProcessor("org.projectlombok:lombok")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
-	testImplementation("org.springframework.security:spring-security-test")
+
+	//시큘리티
+	// testImplementation("org.springframework.security:spring-security-test")
+
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
 
