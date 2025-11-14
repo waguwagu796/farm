@@ -41,7 +41,7 @@ const RoutesWrapper = () => {
       <Route path="/about" element={<About />} />
       <Route path="/products" element={<Product />} />
       <Route path="/blog" element={<Blog />} />
-      <Route path="/features" element={<Feature />} />
+      <Route path="/feature" element={<Feature />} />
       <Route path="/testimonial" element={<Testimonial />} />
       <Route path="/contact" element={<Contact />} />
 
