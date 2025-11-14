@@ -8,7 +8,7 @@ import WOW from 'wow.js';
 import 'wow.js/css/libs/animate.css';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import UsersPage from './pages/UsersPage';
+import MongoTestPage from './pages/MongoTestPage';
 
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
   return (
     <div className="App">
       <Home/>
+      <MongoTestPage/>
     </div>
   );
 }
