@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import WOW from 'wow.js';
 import 'wow.js/css/libs/animate.css';
-import OwlCarousel from 'react-owl-carousel3';
+// import OwlCarousel from 'react-owl-carousel3';
 import About from './pages/About';
 import Product from './pages/Product';
 import Blog from './pages/Blog';
