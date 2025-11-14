@@ -27,7 +27,7 @@ const Blog = () => {
                 </div>
 
                 <nav className="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
-                    <a href="index.html" className="navbar-brand ms-4 ms-lg-0">
+                    <a href="/" className="navbar-brand ms-4 ms-lg-0">
                         <h1 className="fw-bold text-primary m-0">F<span className="text-secondary">oo</span>dy</h1>
                     </a>
                     <button type="button" className="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -35,19 +35,19 @@ const Blog = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarCollapse">
                         <div className="navbar-nav ms-auto p-4 p-lg-0">
-                            <a href="index.html" className="nav-item nav-link">Home</a>
-                            <a href="about.html" className="nav-item nav-link">About Us</a>
-                            <a href="product.html" className="nav-item nav-link">Products</a>
+                            <a href="/" className="nav-item nav-link">Home</a>
+                            <a href="about" className="nav-item nav-link">About Us</a>
+                            <a href="product" className="nav-item nav-link">Products</a>
                             <div className="nav-item dropdown">
                                 <a href="#" className="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
                                 <div className="dropdown-menu m-0">
-                                    <a href="blog.html" className="dropdown-item active">Blog Grid</a>
-                                    <a href="feature.html" className="dropdown-item">Our Features</a>
-                                    <a href="testimonial.html" className="dropdown-item">Testimonial</a>
-                                    <a href="404.html" className="dropdown-item">404 Page</a>
+                                    <a href="blog" className="dropdown-item active">Blog Grid</a>
+                                    <a href="feature" className="dropdown-item">Our Features</a>
+                                    <a href="testimonial" className="dropdown-item">Testimonial</a>
+                                    <a href="404" className="dropdown-item">404 Page</a>
                                 </div>
                             </div>
-                            <a href="contact.html" className="nav-item nav-link">Contact Us</a>
+                            <a href="contact" className="nav-item nav-link">Contact Us</a>
                         </div>
                         <div className="d-none d-lg-flex ms-2">
                             <a className="btn-sm-square bg-white rounded-circle ms-3" href="">
