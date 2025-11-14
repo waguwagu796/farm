@@ -7,7 +7,7 @@ const Navbar = () => {
         <>
         {/* Top Bar */}
         {/* className에 bg-white shadow는 스크롤이 내려갔을 때만 생기는 것이지만 현재 개인 능력의 한계로 구현이 불가능해 default 배경색을 흰색으로 설정해둔 상태 */}
-        <div className="container-fluid fixed-top px-0 wow fadeIn bg-white shadow" data-wow-delay="0.1s">
+        <div className="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
             <div className="top-bar row gx-0 align-items-center d-none d-lg-flex">
             <div className="col-lg-6 px-5 text-start">
                 <small><i className="fa fa-map-marker-alt me-2"></i>123 Street, New York, USA</small>
