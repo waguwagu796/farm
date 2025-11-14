@@ -14,6 +14,9 @@ import Testimonial from './pages/Testimonial';
 import Contact from './pages/Contact';
 import Error from './pages/Error';
 import { Route, Routes } from 'react-router-dom';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import MongoTestPage from './pages/MongoTestPage';
 
 
 function App() {
@@ -24,6 +27,7 @@ function App() {
   return (
     <div className="App">
       <RoutesWrapper/>
+      <MongoTestPage/>
     </div>
   );
 }
